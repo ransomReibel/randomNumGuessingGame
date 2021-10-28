@@ -5,4 +5,9 @@ n=randint(0,15)
 
 guess=int(input("Enter your guess for the random number:"))
 print("Your first guess is: ", guess)
-print(type(guess))
+
+while guess=!n:
+    #various if statements
+    #code
+    #code
+print("Your guess is now correct!")
