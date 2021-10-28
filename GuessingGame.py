@@ -1,8 +1,8 @@
 from random import randint
 import sys
-random_number=10
+random_number=20
 n=randint(0,random_number)
-print(n)
+
 
 guess=int(input("You have three guesses. Enter your first guess for the random number:"))
 print("Your first guess is: ", guess, ".")
@@ -33,7 +33,7 @@ while (guess!=n):
         print("You've guessed ", guess_counter, " times.")
         if n > 10:
                 print("HINT: N is between 11 and 20")
-        if n >= 0 < 11:
+        if 10 >= n >= 0 :
                 print("HINT: N is between 1 and 10")
         if guess>n:
             print("Your guess is too large.")
