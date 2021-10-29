@@ -1,1 +1,1 @@
-# randomNumGuessingGame
+A random number guessing game, built in python. You have 5 guesses to get it right. After 3 wrong guesses you begin to receive hints to narrow down your choices. After 5 wrong guesses you lose the game and the program terminates.  
